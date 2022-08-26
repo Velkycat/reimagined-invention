@@ -1,2 +1,2 @@
-# reimagined-invention
+# skynova
 my personal site that i'm probably still working on
