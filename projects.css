@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:500');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Raleway:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amaranth:ital@1&display=swap');
 
 * {
     box-sizing: border-box;
@@ -63,8 +66,8 @@ header {
 
 .snake {
     width:800px;
-    height:500px;
-    background:rgba(70,210,52,0.3);
+    height:390px;
+    background:rgba(70,210,52,0.7);
     margin-right:auto;
     margin-left:auto;
     margin-top:200px;
@@ -77,16 +80,17 @@ header {
     padding:15px;
 }
 
-p {
+.snekpar {
     margin:1em 0;
     display:block
     margin-block-start:1em;
     margin-block-end:1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    font-family:'PT Sans', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     font-size:18px;
     padding:10px;
+    color:white;
 }
 
 h2 {
@@ -98,7 +102,7 @@ h2 {
 .mct {
     width:800px;
     height:500px;
-    background:rgba(54,49,59,0.3);
+    background:rgba(54,49,59,0.7);
     margin-right:auto;
     margin-left:auto;
     margin-top:200px;
@@ -113,8 +117,8 @@ h2 {
 
 .aops {
     width:800px;
-    height:500px;
-    background:rgba(50,152,173,0.3);
+    height:575px;
+    background:rgba(50,152,173,0.7);
     margin-right:auto;
     margin-left:auto;
     margin-top:200px;
@@ -130,11 +134,95 @@ h2 {
 
 .discord {
     width:800px;
-    height:500px;
-    background:rgba(222,68,230,0.3);
+    height:200px;
+    background:rgba(222,68,230,0.7);
     margin-right:auto;
     margin-left:auto;
     margin-top:200px;
     border:2px solid rgba(222,68,230);
     border-radius:20px;
+}
+
+.mctpar {
+    margin:1em 0;
+    display:block
+    margin-block-start:1em;
+    margin-block-end:1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: 'Overpass', sans-serif;
+    font-size:18px;
+    padding:10px;
+    color:white;
+}
+
+.aopspar {
+    margin:1em 0;
+    display:block
+    margin-block-start:1em;
+    margin-block-end:1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size:18px;
+    padding:10px;
+    color:white;
+}
+
+.discordpar {
+    margin:1em 0;
+    display:block
+    margin-block-start:1em;
+    margin-block-end:1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: 'Amaranth', sans-serif;
+    font-size:18px;
+    padding:10px;
+    color:white;
+}
+
+.snekpar > a {
+    font-family: 'Montserrat', sans-serif;
+    font-size:18px;
+    color:#de44e6;
+    transition: .3s ease;
+}
+
+.snekpar > a:hover {
+    font-size:22px;
+    text-shadow:
+        0 0 7px #de44e6,
+        0 0 10px #de44e6,
+        0 0 30px #de44e6;
+}
+
+.mctpar > a {
+    font-family: 'Montserrat', sans-serif;
+    font-size:18px;
+    color:#de44e6;
+    transition: .3s ease;
+}
+
+.mctpar > a:hover {
+    font-size:22px;
+    text-shadow:
+        0 0 7px #de44e6,
+        0 0 10px #de44e6,
+        0 0 30px #de44e6;
+}
+
+.aopspar > a {
+    font-family: 'Montserrat', sans-serif;
+    font-size:18px;
+    color:#de44e6;
+    transition: .3s ease;
+}
+
+.aopspar > a:hover {
+    font-size:22px;
+    text-shadow:
+        0 0 7px #de44e6,
+        0 0 10px #de44e6,
+        0 0 30px #de44e6;
 }

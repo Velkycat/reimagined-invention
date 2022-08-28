@@ -1,16 +1,3 @@
-onSuccess: function (result) {
-                    debugger;
-                    combo.empty();
-                    $(result).each(function () {
-                        var option;
-
-                        option = document.createElement('option');
-                        option.value = this.Id;
-
-                        $(option).appendTo(combo);
-                    });
-                }
-
 let opacityPercentage = 100;
 
 document.addEventListener('DOMContentLoaded', () => {
