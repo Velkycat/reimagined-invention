@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=BioRhyme:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+li, a, button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight:500;
+    font-size:16px;
+    color:#edf0f1;
+    text-decoration:none;
+}
+
+header {
+    position:fixed;
+    top:0px;
+    display:flex;
+    justify-content:flex-end;
+    align-items: center;
+    padding: 30px 10%;
+    background-color:rgba(0,0,0,0.8);
+    height:80px;
+    width:100%;
+    z-index:100;
+}
+
+.stray {
+    cursor:pointer;
+    width:60px;
+    height:60px;
+    margin-right:auto;
+}
+
+.nav-tabs {
+    list-style:none;
+}
+
+.nav-tabs li {
+    display:inline-block;
+    padding: 0px 20px;
+}
+
+.nav-tabs li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav-tabs li a:hover {
+    color:#de44e6;
+    font-size:18px;
+    text-shadow:
+        0 0 7px #de44e6,
+        0 0 10px #de44e6,
+        0 0 30px #de44e6;
+}
+
+.here {
+    color:#de44e6;
+}
+
+body {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    overflow-y: scroll;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.wcgalcontainer {
+    position:relative;
+    top:100px;
+    height:150px;
+    border:10px;
+    border-radius:20px;
+}
+
+.wcgallery {
+    position:relative;
+    margin-left:60px;
+    font-size:30px;
+    font-family:'BioRhyme', serif;
+    color:white;
+}
+
+.wcchalexplanation {
+    position:relative;
+    margin-left:60px;
+    margin-top:20px;
+    font-size:30px;
+    font-family:'Edu Sa Beginner', serif;
+    color:white;
+}
+
+.gallery {
+    margin:100px;
+}
+
+.gallery img {
+    transition: 0.7s ease;
+    padding:15px;
+    width:auto;
+}
+
+.gallery img:hover {
+    filter: grayscale(.50%);
+    transform: scale(1.075);
+}
+
+#vertical {
+    width:338px;
+}
+
+.randomgalcontainer {
+    position:relative;
+    top:100px;
+    height:150px;
+    border:10px;
+    border-radius:20px;
+}
+
+.randomgallery {
+    position:relative;
+    margin-left:60px;
+    font-size:30px;
+    font-family:'BioRhyme', serif;
+    color:white;
+}
+
+.randomgalcontainer > p {
+    position:relative;
+    margin-left:60px;
+    margin-top:20px;
+    font-size:30px;
+    font-family:'Edu Sa Beginner', serif;
+    color:white;
+}
+
+.gallery2 {
+    margin:100px;
+}
+
+.gallery2 img {
+    transition: 0.7s ease;
+    padding:15px;
+    width:500px;
+}
+
+.gallery2 img:hover {
+    filter: grayscale(.50%);
+    transform: scale(1.075);
+}
+
+#vertical2 {
+    width:240px;
+}
+
+#smaller {
+    width:399px;
+}
+
+#small{
+    width:351px;
+}
+
+.link{
+    color:#de44e6;
+    text-decoration:none;
+    transition: .5s ease
+}
+
+.link:hover{
+    font-size:22px;
+    text-shadow:
+        0 0 7px #de44e6,
+        0 0 10px #de44e6,
+        0 0 30px #de44e6;
+}
+
+.da {
+    margin-top:340px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    color:white;
+    font-size:20px;
+    font-family:Palatino Linotype;
+    word-wrap:break-word;
+}
