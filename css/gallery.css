@@ -169,13 +169,14 @@ body::-webkit-scrollbar {
 }
 
 .link{
+    font-size:26px;
     color:#de44e6;
     text-decoration:none;
     transition: .5s ease
 }
 
 .link:hover{
-    font-size:22px;
+    font-size:29px;
     text-shadow:
         0 0 7px #de44e6,
         0 0 10px #de44e6,
@@ -188,7 +189,11 @@ body::-webkit-scrollbar {
     align-items: center;
     justify-content:center;
     color:white;
-    font-size:20px;
+    font-size:27px;
     font-family:Palatino Linotype;
     word-wrap:break-word;
+}
+
+#vertical3 {
+    width:566px;
 }
